@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "fontick";
+    src: url("../fonts/fontick.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    background-color: #333;
+    color: white;
+    font-family: "fontick";
+}
+
+#diagram td {
+    vertical-align: bottom;
+    padding: 10px;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
